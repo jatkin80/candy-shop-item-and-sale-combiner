@@ -1,5 +1,5 @@
 function getItemById(items, id) {
-    return items.filter(item => item.id === id)[0];
+    return items.filter(item => item.id === id);
 }
 
 function buildTransactions(sales, items) {
